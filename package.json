@@ -4,11 +4,13 @@
   "description": "Tech skill evaluation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy":"gh-pages -d dist"
   },
   "author": "Joko mziyanda",
   "license": "ISC",
+  "homepage": "https://github.com/mziyandajoko/jokoTechEval",
   "dependencies": {
-    "bootstrap": "^4.5.3"
+    "bootstrap": "^4.5.3",
+    "gh-pages": "^3.1.0"
   }
 }
